@@ -37,10 +37,12 @@ const Projects = () => {
         >
             <div className="projects_section_header d-flex">
                 <div className='project_header_child' onClick={() => setProjects(projects_store)}>All</div>
-                <div className='project_header_child' onClick={() => handleFilterCatagory('html')}>HTML</div>
-                <div className='project_header_child' onClick={() => handleFilterCatagory('react.js')} >React js</div>
-                <div className='project_header_child' onClick={() => handleFilterCatagory('css')} >CSS</div>
+                <div className='project_header_child' onClick={() => handleFilterCatagory('html')}>HTML&CSS</div>
                 <div className='project_header_child' onClick={() => handleFilterCatagory('bootstrap')} >Bootstrap</div>
+                <div className='project_header_child' onClick={() => handleFilterCatagory('react.js')} >React js</div>
+                <div className='project_header_child' onClick={() => handleFilterCatagory('fullstack')} >Fullstack</div>
+
+                
             </div>
             <div className="row">
                 {projects.map((project, i) =>

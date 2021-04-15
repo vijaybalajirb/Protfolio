@@ -15,7 +15,6 @@ const App = () => {
 
             <div className="container custom_container mb-2">
                 <div className="row custom_row">
-                    {/* <div className="col-1"></div> */}
                     <div className="col-sm-12 col-lg-3 ">
                         <SideBar />
                     </div>

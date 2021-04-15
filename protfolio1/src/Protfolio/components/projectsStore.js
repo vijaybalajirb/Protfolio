@@ -1,9 +1,12 @@
-import tictactoe from '../projects_images/tictactoe.png'
-import secretmessage from '../projects_images/Secret-message.png'
-import freshdesk from '../projects_images/freshdesk.png'
-import receipe from '../projects_images/receipe.png'
-import blog from '../projects_images/blog.png'
-import themetoggler from '../projects_images/themetoggler.png'
+import tictactoe from '../projects_images/tictactoe-min.png'
+import secretmessage from '../projects_images/Secret-message-min.png'
+import freshdesk from '../projects_images/freshdesk-min.png'
+import receipe from '../projects_images/receipe-min.png'
+import blog from '../projects_images/blog-min.png'
+import webscrap from '../projects_images/webscrap-min.png'
+import otp from '../projects_images/otp-min.png'
+import protfolio from "../projects_images/protfolio-min.png"
+import sign from "../projects_images/signup-min.png"
 
 var projects_store = [
     {
@@ -19,7 +22,7 @@ var projects_store = [
         image: secretmessage,
         url: 'https://mystifying-wright-ea494e.netlify.app/',
         github:"",
-        catagory: ['node.js', 'mongodb', 'react.js','express.js']
+        catagory: ['fullstack']
     },
     {
         name: 'Freshdesk',
@@ -43,11 +46,36 @@ var projects_store = [
         catagory: ['html','css','bootstrap']
     },
     {
-        name: 'Theme toggler',
-        image:themetoggler ,
-        url: '',
-        github:"",
+        name: 'Portfolio',
+        image:protfolio ,
+        url: 'https://vijay-protfolio.netlify.app/',
+        github:"https://github.com/vijaybalajirb/Protfolio",
         catagory: ['react.js']
+    },
+    {
+        name: 'Web-Scraping',
+        image:webscrap ,
+        url: 'https://friendly-ritchie-055a4e.netlify.app/',
+        github:"https://github.com/vijaybalajirb/Webscrap-frontend",
+        catagory: ['fullstack']
+
+    },
+    {
+        name: 'Otp-login',
+        image:otp ,
+        url: 'https://distracted-ride-2e13cc.netlify.app/',
+        github:"https://github.com/vijaybalajirb/OTP-login-frontend",
+        catagory: ['fullstack']
+    
+    },
+    {
+        name: 'Signup with mongodb and jwt',
+        image:sign ,
+        url: 'https://quirky-kirch-1ce3bc.netlify.app/',
+        github:"https://github.com/vijaybalajirb/signup-with-mongodb-jwt-frontend",
+        catagory: ['fullstack']
+    
     }
+    
 ]
 export default projects_store

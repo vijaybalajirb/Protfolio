@@ -39,8 +39,6 @@ const SideBar = () => {
             <a href={resume} download="resume.pdf">
                 <div className="cv side_item"><img src={tie} alt="resume" className='icon_small' /> Download resume</div></a>
             <figure className='social_icons'>
-                <a href="https://www.facebook.com/vijaybalajivj/" target="_blank"><img src={facebook} alt="facebook" className='icon_small social_icon' /></a>
-                <a href="https://www.instagram.com/_rbvijay_/" target="_blank"><img src={instagram}   alt="instagram" className='icon_small social_icon' /></a>
                 <a href="https://www.linkedin.com/in/vijay-r-b-62722b147/" target="_blank">&nbsp;<img src={linkedin} alt="linkedin" className=' social_icon' /></a>
 
             </figure>

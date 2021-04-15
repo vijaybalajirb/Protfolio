@@ -62,10 +62,10 @@ const About = () => {
                             <Card icon={api} title="API Development" body={["develop robust REST API using ", <strong> express framework </strong>]} />
                         </div>
                         <div className="col-sm-12 col-lg-6">
-                            <Card icon={algo} title="Algo and DS" body={["a complete beginner and trying to solve ", <strong>HackerRank</strong>, " and ", <strong>Leetcode</strong>, " problems "]} />
+                            <Card icon={ux} title="Design and Animation" body={["I am learning to add some cool ", <strong>design</strong>, " and ", <strong>animation</strong>, " to the frontend. "]} />
                         </div>
                         <div className="col-sm-12 col-lg-6">
-                            <Card icon={db} title="Database" body={["I can handle the integration of database with ", <strong>MongoDB</strong>]} />
+                            <Card icon={db} title="Database" body={["I can handle the integration of database with frontend using ", <strong>MongoDB</strong>]} />
                         </div>
                         <div className="col-sm-12 col-lg-6">
                             <Card icon={puzzle} title="Chess Player (mm ..Hobby :))" body={["you will not regret playing with me."]} />
