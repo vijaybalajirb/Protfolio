@@ -1,2 +1,2 @@
 # Protfolio
-find live @ https://vijay-protfolio.netlify.app/
+find live @ https://vijayrb-portfolio.netlify.app/
